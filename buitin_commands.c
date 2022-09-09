@@ -10,7 +10,7 @@
 int execBuiltInCommands(char **u_tokns, char *line)
 {
 	int i = 0;
-	char *ListBuiltinCmd[] = { "exit", "cd", "help", "env", NULL };
+	char *ListBuiltinCmds[] = { "exit", "cd", "help", "env", NULL };
 
 	while (ListBuiltinCmds[i])
 	{

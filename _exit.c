@@ -28,7 +28,7 @@ void _handle_exit(char **u_tokns, char *line)
 		_puts("exit: Illegal number: ");
 		_puts(u_tokns[1]);
 		_puts("\n");
-		exits(2);
+		exit(2);
 	}
 
 	frees_tokens(u_tokns);
