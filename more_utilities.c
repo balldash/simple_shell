@@ -59,11 +59,11 @@ int _strncmp(const char *s1, const char *s2, size_t len)
 }
 
 /**
- * -realloc - resize the ptr that previously allocated
- *  @ptr: the pointer previously allocated
- *  @old_size: the old size
- *  @new_size: the new size of the new pointer
- *  Return: a new pointer to the memory block
+ * _realloc - resize the ptr that previously allocated
+ * @ptr: the pointer previously allocated
+ * @old_size: the old size
+ * @new_size: the new size of the new pointer
+ * Return: a new pointer to the memory block
  */
 
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)

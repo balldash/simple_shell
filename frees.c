@@ -5,7 +5,7 @@
  * @env_path: the environment variable to free
  */
 
-void free_get_env(char *env_path)
+void frees_get_env(char *env_path)
 {
 	int i;
 
@@ -16,7 +16,7 @@ void free_get_env(char *env_path)
 }
 
 /**
- * frees_tokens: frees the tokens
+ * frees_tokens - frees the tokens
  * @tokns: the tokens to free
  */
 
