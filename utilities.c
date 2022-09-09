@@ -30,7 +30,7 @@ char *_strcat(char *dest, char *src)
  * Return: the length of a string
  */
 
-int _strlen(count char *s)
+int _strlen(const char *s)
 {
 	int i = 0;
 
